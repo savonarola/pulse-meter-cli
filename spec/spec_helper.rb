@@ -8,7 +8,6 @@ Bundler.require(:development)
 
 SimpleCov.start
 
-require 'pulse_meter_core'
 require 'pulse_meter_cli'
 PulseMeter.redis = MockRedis.new
 
