@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'pulse-meter/extensions/enumerable'
+require 'pulse_meter/extensions/enumerable'
 
 describe Enumerable do
   let!(:time) {Time.new}
