@@ -1,7 +1,7 @@
-[![Gem Version](https://badge.fury.io/rb/pulse-meter-cli.png)](http://badge.fury.io/rb/pulse-meter-cli)
-[![Build Status](https://secure.travis-ci.org/savonarola/pulse-meter-cli.png)](http://travis-ci.org/savonarola/pulse-meter-cli)
-[![Dependency Status](https://gemnasium.com/savonarola/pulse-meter-cli.png)](https://gemnasium.com/savonarola/pulse-meter-cli)
-[![Code Climate](https://codeclimate.com/github/savonarola/pulse-meter-cli.png)](https://codeclimate.com/github/savonarola/pulse-meter-cli)
+[![Gem Version](https://badge.fury.io/rb/pulse_meter_cli.png)](http://badge.fury.io/rb/pulse_meter_cli)
+[![Build Status](https://secure.travis-ci.org/savonarola/pulse_meter_cli.png)](http://travis-ci.org/savonarola/pulse_meter_cli)
+[![Dependency Status](https://gemnasium.com/savonarola/pulse_meter_cli.png)](https://gemnasium.com/savonarola/pulse_meter_cli)
+[![Code Climate](https://codeclimate.com/github/savonarola/pulse_meter_cli.png)](https://codeclimate.com/github/savonarola/pulse_meter_cli)
 
 # PulseMeter
 
@@ -9,7 +9,7 @@ PulseMeter is a gem for fast and convenient realtime aggregating of software int
 
 ## Live Demo
 
-A small live demo of PulseMeter gem is located here: [rubybox.ru](http://rubybox.ru), its source code can be found here: [https://github.com/savonarola/pulse-meter-cli-demo](https://github.com/savonarola/pulse-meter-cli-demo)
+A small live demo of PulseMeter gem is located here: [rubybox.ru](http://rubybox.ru), its source code can be found here: [https://github.com/savonarola/pulse_meter_cli-demo](https://github.com/savonarola/pulse_meter_cli-demo)
 
 ## Features
 
@@ -20,7 +20,7 @@ The gem contains command line tool `pulse` for PulseMeter gem.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'pulse-meter-cli', require: false
+gem 'pulse_meter_cli', require: false
 ```
 
 And then execute:
@@ -29,7 +29,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install pulse-meter-cli
+    $ gem install pulse_meter_cli
 
 ## Contributing
 
