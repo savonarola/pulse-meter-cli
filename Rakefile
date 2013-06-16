@@ -1,7 +1,6 @@
 #!/usr/bin/env rake
 require 'bundler/gem_tasks'
 require 'rspec/core/rake_task'
-require 'tilt'
 require 'yard'
 require 'yard/rake/yardoc_task'
 
