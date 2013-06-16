@@ -20,7 +20,7 @@ The gem contains command line tool `pulse` for PulseMeter gem.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'pulse-meter-cli'
+gem 'pulse-meter-cli', require: false
 ```
 
 And then execute:
