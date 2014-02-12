@@ -70,7 +70,7 @@ module Cmd
       with_safe_restore_of(name) do |sensor|
         now = Time.now
         puts sensor.
-          timeline_within(now - seconds, now, true).
+          timeline_within(now - seconds.to_i, now, true).
           map {|data| [data.start_time, data.value || '']}.
           to_table(options[:format])
       end
