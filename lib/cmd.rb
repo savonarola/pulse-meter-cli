@@ -79,10 +79,10 @@ module Cmd
     desc "timeline_within NAME FROM TILL", "Get sensor's NAME timeline in interval. Time format: YYYY-MM-DD HH:MM:SS"
     common_options
     method_option :format, :default => :table, :desc => "Output format: table or csv"
-    def timeline_within(name, from, till, true)
+    def timeline_within(name, from, till)
       with_safe_restore_of(name) do |sensor|
         puts sensor.
-          timeline_within(Time.parse(from), Time.parse(till)).
+          timeline_within(Time.parse(from), Time.parse(till), true).
           map {|data| [data.start_time, data.value || '']}.
           to_table(options[:format])
       end
