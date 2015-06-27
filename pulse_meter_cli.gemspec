@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "pulse_meter_cli"
   gem.require_paths = ["lib"]
-  gem.version       = "0.4.15"
+  gem.version       = "0.4.16"
 
   gem.add_runtime_dependency('pulse_meter_core')
   gem.add_runtime_dependency('terminal-table', '~> 1.4.0')
@@ -25,7 +25,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency('mock_redis')
   gem.add_development_dependency('rake')
   gem.add_development_dependency('redcarpet')
-  gem.add_development_dependency('rspec')
+  gem.add_development_dependency('rspec', '~> 3.0')
   gem.add_development_dependency('simplecov')
   gem.add_development_dependency('timecop')
   gem.add_development_dependency('yard')
