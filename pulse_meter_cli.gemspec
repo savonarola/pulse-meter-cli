@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.version       = "0.4.15"
 
   gem.add_runtime_dependency('pulse_meter_core')
-  gem.add_runtime_dependency('terminal-table')
+  gem.add_runtime_dependency('terminal-table', '~> 1.4.0')
   gem.add_runtime_dependency('thor')
 
   gem.add_development_dependency('aquarium')
